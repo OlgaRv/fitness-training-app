@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398685139219",
+    "project_id": "fitness-book-dd9b0",
+    "storage_bucket": "fitness-book-dd9b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398685139219:android:a4ff90b54bc6030e5aaae6",
+        "android_client_info": {
+          "package_name": "com.example.fitness_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIkyYXGTYXroEH1Kjqda7pP9mCC3yj3BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
