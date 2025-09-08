@@ -81,7 +81,7 @@ class WorkoutService {
       tr.set(userWorkoutDoc, {
         'workoutId': workoutId,
         'type': _extractString(data['type'], 'name', 'Тренировка'),
-        'trainerName': _extractString(data['trainer'], 'trainerName', 'Тренер'),
+        'trainerName': _extractString(data['trainer'], 'name', 'Тренер'),
         'datetime': data['datetime'],
         'status': 'Забронировано',
         'duration': _extractString(data['type'], 'duration', '60 мин'),
