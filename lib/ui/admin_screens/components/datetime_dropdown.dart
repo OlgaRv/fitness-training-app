@@ -69,7 +69,7 @@ class DatetimeDropdown extends StatelessWidget {
                 : null;
 
             return DropdownButtonFormField<String>(
-              value: safeValue,
+              initialValue: safeValue,
               items: items,
               onChanged: onChanged,
               validator: validator,
