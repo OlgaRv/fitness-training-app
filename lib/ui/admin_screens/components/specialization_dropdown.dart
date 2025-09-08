@@ -52,7 +52,7 @@ class SpecializationDropdown extends StatelessWidget {
             final items = docs.map((doc) {
               final name = doc.get('name') as String? ?? '';
               return DropdownMenuItem<String>(
-                value: name,
+                value: doc.id,
                 child: Text(name, style: textTheme.bodyMedium),
               );
             }).toList();
@@ -62,6 +62,7 @@ class SpecializationDropdown extends StatelessWidget {
                 : null;
 
             return DropdownButtonFormField<String>(
+              key: ValueKey<String?>(safeValue),
               initialValue: safeValue,
               items: items,
               onChanged: onChanged,

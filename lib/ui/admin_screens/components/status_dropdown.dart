@@ -62,6 +62,7 @@ class StatusDropdown extends StatelessWidget {
                 : null;
 
             return DropdownButtonFormField<String>(
+              key: ValueKey<String?>(safeValue),
               initialValue: safeValue,
               items: items,
               onChanged: onChanged,
